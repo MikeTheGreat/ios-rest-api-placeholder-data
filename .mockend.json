@@ -4,10 +4,10 @@
       "string": {}
     },   
     "FirstName": {
-      "string": {}
+      "regexp": "[A-Z][a-z]{4,10}"
     },
     "LastName": {
-      "string": {}
+      "regexp": "[A-Z][a-z]{4,10}"
     },
     "PhoneNumber": {
       "regexp": "[0-9]{3}-[0-9]{3}-[0-9]{4}"
