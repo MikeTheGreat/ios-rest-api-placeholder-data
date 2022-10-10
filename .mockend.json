@@ -1,7 +1,19 @@
 {
   "User": {
-    "name": {
+     "UserID": {
       "string": {}
+    },   
+    "FirstName": {
+      "string": {}
+    },
+    "LastName": {
+      "string": {}
+    },
+    "PhoneNumber": {
+      "regexp": "[0-9]{3}-[0-9]{3}-[0-9]{4}"
+    },
+    "SID": {
+      "regexp": "[0-9]{5}"
     },
     "avatarUrl": {
       "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
